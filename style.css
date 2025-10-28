@@ -63,3 +63,48 @@ body {
   text-align: right;
   font-size: 15px;
 }
+
+#chhotiheadings{
+  margin-top: 100px;
+  padding-right: 50px;
+}
+
+#chhotiheadings h5{
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: .5vw;
+  font-size: 1vw;
+}
+
+#herofooter{
+  padding: 0 2vw;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#herofooter a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#herofooter #iconset{
+  display: flex;
+  gap: 5px;
+}
+
+#herofooter .circle{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #888;
+}
+
