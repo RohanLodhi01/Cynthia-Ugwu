@@ -147,11 +147,29 @@ body {
 }
 
 #about{
-  padding: 10vw 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  color: #fff;
+  padding: 10vw 10vw;
+  padding-left: 40vw;
   width: 100%;
   background-color: black;
 }
 
+#textabout{
+  width: 25rem;
+}
+#textabout h5{
+  text-transform: uppercase;
+  opacity: .6;
+  margin-bottom: 10px;
+  /* padding-bottom: 10px; */
+}
+#textabout p{
+  line-height: 1.6;
+}
 #about img{
-  width: 15vw;
+  width: 200px;
 }
